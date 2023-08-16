@@ -8,5 +8,5 @@ test('Login (TC-144)', async({ page }) => {
 
     await page.goto(loginEnvironments.baseUrl);
     await loginPage.login(loginEnvironments.validEmail, loginEnvironments.validPassword);
-
 });
+
